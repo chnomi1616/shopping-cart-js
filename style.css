@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+.navbar{
+    background:#212528;
+    color: #fff;
+    padding: 25px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.cart{
+    position: relative;
+    background: #fff;
+    color: #212528;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.cart:hover{
+    background: #212528;
+    color: #fff;
+    cursor: pointer;
+}
+
+.cartamount{
+position: absolute;
+font-size: 16px;
+background-color: red;
+color: #fff;
+top: -15px;
+right: -10px;
+}
